@@ -22,8 +22,6 @@
     margin-bottom: 30px;
     max-width: 696px;
     color: var(--hero-text-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font(44px, 900, 1.36, null);
     text-transform: uppercase;
 }
